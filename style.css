@@ -1,6 +1,30 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 h1 {
     color: purple;
 }
 .navbar-pink {
     background-color: pink;
+}
+#about, #experiences {
+    padding: 40px;
+}
+.about-detail {
+    display: flex;
+    flex-direction: row;
+}
+.about-description {
+    padding: 40px;
+}
+.title {
+    font-family:'Caveat Brush', cursive;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.bg-pink {
+    background-color: #ffbbe0;
+}
+.navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
